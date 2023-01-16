@@ -1,0 +1,83 @@
+@media screen and (max-width: 420px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+  }
+  .logo {
+  }
+  .logo img {
+    width: 80px;
+  }
+  .list {
+    display: flex;
+    justify-content: center;
+  }
+  .list li {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .booking {
+    display: flex;
+    justify-content: end;
+  }
+  .booking button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 10px 0;
+  }
+  .relativeText {
+    font-size: 20px;
+    bottom: 110px;
+    right: 50px;
+  }
+  .threeImg {
+    display: block;
+    width: 60%;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about {
+    display: block;
+  }
+  .leftSide {
+    display: block;
+    width: 100%;
+  }
+  .leftSide h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .leftSide p {
+    font-size: 16px;
+  }
+  .rightSide {
+    display: block;
+    width: 100%;
+  }
+  .photoGalery {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .segments {
+    padding-top: 30px;
+  }
+  .holder {
+    margin: 30px 0;
+  }
+  .holder img {
+    height: 100px;
+  }
+  .textHolder {
+    font-size: 12px;
+    bottom: 5px;
+    left: 5px;
+    padding: 5px;
+  }
+}

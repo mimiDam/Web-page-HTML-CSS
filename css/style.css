@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.logo img {
+  width: 150px;
+}
+.list {
+  margin: auto 0;
+}
+.list li {
+  display: inline-block;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 0 30px;
+}
+.list a:hover {
+  color: rgb(170, 128, 210);
+}
+.booking {
+  margin: auto 0;
+}
+.booking button {
+  background-color: rgb(187, 168, 204);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border-color: rgb(67, 51, 82);
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+.booking button:hover {
+  opacity: 0.7;
+}
+
+/*First part(Big Picture)*/
+.bigImg {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.bigImg img {
+  width: 100%;
+  opacity: 0.8;
+}
+.relativeText {
+  position: absolute;
+  font-family: "Caveat", cursive;
+  bottom: 270px;
+  padding: 10px;
+  color: rgb(41, 38, 38);
+  font-size: 72px;
+  right: 200px;
+}
+.threeImg {
+  display: flex;
+  width: 70%;
+  margin: -80px auto;
+  position: relative;
+  justify-content: space-between;
+}
+.box {
+  background-color: white;
+  width: 25%;
+}
+.box a {
+  text-decoration: none;
+  color: black;
+}
+.boxImg {
+  width: 100%;
+  height: 300px;
+}
+.boxImg img {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+.boxImg img:hover {
+  opacity: 0.7;
+}
+.boxText {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*Section History*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  align-items: center;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.leftSide {
+  display: inline-block;
+  width: 48%;
+  padding: 0 20px;
+}
+.leftSide h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  color: rgb(41, 38, 38);
+}
+.leftSide p {
+  font-family: "Caveat", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightSide {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+.photoGalery {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 20px 0;
+}
+.photoGalery img {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 250px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+.flex img:hover {
+  opacity: 1;
+}
+.flex a:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s;
+}
+
+.sredina {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.photoText {
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  background-color: rgb(180, 175, 175);
+  padding: 5px 10px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Segments Section*/
+.segments {
+  padding-top: 150px;
+}
+.holder {
+  margin: 50px 0px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.holder img {
+  width: 100%;
+  opacity: 0.8;
+}
+.holder :hover {
+  opacity: 1;
+}
+.textHolder {
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+  font-family: "Caveat", cursive;
+  padding: 10px;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+}
+.holder a {
+  text-decoration: none;
+  color: black;
+}
+.textHolder h2 {
+  font-weight: 900;
+}
+
+/* Background Image Section */
+.backgroundImg {
+  background-image: url(../images/53062.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 450px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  z-index: 0;
+}
+.header {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  color: white;
+  z-index: 0;
+  position: relative;
+}
+.imgBox {
+  display: inline-block;
+  width: 30%;
+  margin: 40px 15px;
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+.imgPart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 200px;
+}
+.imgPart img {
+  width: 85%;
+}
+.imgPart img:hover {
+  opacity: 0.5;
+}
+.textPart {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  z-index: 0;
+}
+
+/* Forma Section */
+.forma {
+  margin: 70px 0;
+}
+.firstForma h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.twoInputs {
+  display: flex;
+  justify-content: center;
+}
+.firstForma input {
+  margin: 20px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+}
+.secondForma button {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: rgb(187, 168, 204);
+  cursor: pointer;
+}
+.secondForma button:hover {
+  opacity: 0.7;
+}
+/* Icons Section */
+.icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.icons img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.socialMedia {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.lightBlue {
+  fill: rgb(28, 160, 242);
+}
+.darkBlueF {
+  fill: rgb(59, 88, 151);
+}
+.darkBlueLinkF {
+  border: 2px solid rgb(59, 88, 151);
+}
+.lightBlueLink {
+  border: 2px solid rgb(28, 160, 242);
+}
+.socialMedia a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: rgb(28, 160, 242);
+}
+.socialMedia a:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s;
+  box-shadow: 0 10px 10px 5px rgb(224, 220, 220);
+  border-radius: 50px;
+}
+/* Last section */
+.lastPart {
+  margin: 30px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyRight span {
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+}
+.copyRight ul {
+  list-style: none;
+}
+.terms li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.terms a {
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+}
+.terms li:hover {
+  text-decoration: underline;
+}
